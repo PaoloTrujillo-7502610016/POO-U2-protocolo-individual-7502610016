@@ -20,7 +20,9 @@ public static void main(String[] args) {
                 System.out.println("Haz seleccionado la opcion "+opcion+":");
                 Estudiante estudiante = new Estudiante("Paolo Trujillo",32,4.5);
                 System.out.println("Nombre del Estudiante: "+estudiante.getNombre());
+                //System.out.println("Nombre del Estudiante: "+estudiante.nombre);/*Codigo con error*/
                 System.out.println("Edad: "+estudiante.getEdad());
+                //System.out.println("Nombre del Estudiante: "+estudiante.edad);/*Codigo con error*/
                 System.out.println("Nota promedio: "+estudiante.getNotaPromedio());
                 estudiante.setNotaPromedio(4.8);/*Modifica el valor del atributo notaPromedio*/
                 estudiante.mostrarNuevaNota();
