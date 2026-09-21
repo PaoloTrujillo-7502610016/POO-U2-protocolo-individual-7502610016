@@ -1,3 +1,4 @@
+import protocolo_individual.taller_4.Coche;
 import protocolo_individual.taller_4.Estudiante;
 
 public static void main(String[] args) {
@@ -27,7 +28,11 @@ public static void main(String[] args) {
 
             case 2:
                 System.out.println("Haz seleccionado la opcion "+opcion+":");
-
+                Coche coche = new Coche("Toyota","LandCruiser 1985",80);
+                System.out.println("Vehiculo: "+coche.getMarca());
+                System.out.println("Modelo: "+coche.getModelo());
+                System.out.println("Velocidad Máxima: "+coche.getVelocidadMaxima()+" km/h");
+                coche.aumentarVelocidad(50);/*Metodo que modifica el valor del atributo velocidadMaxima*/
                 break;
 
             case 3:
