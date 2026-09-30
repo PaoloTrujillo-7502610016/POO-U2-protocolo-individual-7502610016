@@ -34,7 +34,7 @@ public static void main(String[] args) {
                 System.out.println("Vehiculo: "+coche.getMarca());
                 System.out.println("Modelo: "+coche.getModelo());
                 System.out.println("Velocidad Máxima: "+coche.getVelocidadMaxima()+" km/h");
-                coche.aumentarVelocidad(50);/*Metodo que modifica el valor del atributo velocidadMaxima*/
+                coche.setVelocidadMaxima(coche.acelerar(-30));/*Metodo que modifica el valor del atributo velocidadMaxima*/
                 break;
 
             case 3:

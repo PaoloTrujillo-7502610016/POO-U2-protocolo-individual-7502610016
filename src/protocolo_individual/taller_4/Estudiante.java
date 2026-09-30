@@ -26,13 +26,16 @@ public class Estudiante {
         if (edad >= 0 && edad <= 100) {/*La edad debe estar en un rango de 1 a 100*/
             this.edad = edad;
         }
+        else {System.out.println("La edad debe estar entre 1 e 100");}
     }
 
     public double getNotaPromedio() {
         return notaPromedio;
     }
     public void setNotaPromedio(double notaPromedio) {
-        this.notaPromedio = notaPromedio;
+        if  (notaPromedio >= 1 && notaPromedio <= 5) {
+            this.notaPromedio = notaPromedio;
+        }else {System.out.println("La nota debe estar entre 1 a 5");}
     }
 
     public void mostrarNuevaNota(){
