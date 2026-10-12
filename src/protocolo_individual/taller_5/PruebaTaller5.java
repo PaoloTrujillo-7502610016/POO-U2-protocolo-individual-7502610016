@@ -13,12 +13,17 @@ public class PruebaTaller5 {
         producto.mostrarInfo();
 
         //Paquete vehiculos
-        Vehiculo vehiculo = new Vehiculo("Carro");
+        Vehiculo vehiculo = new Vehiculo("Carro");/*El constructor de Vehiculo tiene acceso de paquete*/
         Moto moto = new Moto();
+        System.out.println("Se ha creado una moto correctamente\n");
 
 
         //Clase Persona
         Persona persona = new Persona("Paolo Trujillo",32);
+        System.out.println("Primera persona: "+persona.getNombre());
+
+        persona.setNombre("Chayanne Emilio");//Modificacion del valor del atributo nombre mediante el metodo set
+        persona.edad=33;//Modificacion del valor del atributo edad
         persona.mostrarInfo();
 
     }
