@@ -9,10 +9,12 @@ public class Persona {
         this.edad = edad;
     }
 
-    String getNombre() {
+    public String getNombre() {
         return nombre;
+    } //Metodo publico
+    public void setNombre(String nombre) { //Metodo publico
+        this.nombre = nombre;
     }
-    void setNombre(String nombre) {}
 
     void mostrarInfo(){
         System.out.println("Nombre: "+nombre+", Edad: "+edad+" años.");
