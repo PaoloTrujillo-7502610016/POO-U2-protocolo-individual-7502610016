@@ -1,5 +1,7 @@
 import protocolo_individual.taller_5.Persona;
 import protocolo_individual.taller_5.Producto;
+import protocolo_individual.taller_5.vehiculos.Moto;
+import protocolo_individual.taller_5.vehiculos.Vehiculo;
 
 public static void main(String[] args) {
 
@@ -10,6 +12,8 @@ public static void main(String[] args) {
     producto.mostrarInfo();
 
     //Paquete vehiculos
+    Vehiculo vehiculo = new Vehiculo("Carro");
+    Moto moto = new Moto();
 
 
     //Clase Persona
