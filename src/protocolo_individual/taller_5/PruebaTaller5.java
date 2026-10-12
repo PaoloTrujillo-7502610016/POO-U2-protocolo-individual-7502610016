@@ -1,5 +1,4 @@
-import protocolo_individual.taller_5.Persona;
-import protocolo_individual.taller_5.Producto;
+package protocolo_individual.taller_5;
 import protocolo_individual.taller_5.vehiculos.Moto;
 import protocolo_individual.taller_5.vehiculos.Vehiculo;
 
