@@ -21,6 +21,4 @@ public static void main(String[] args) {
     persona.mostrarInfo();
 
 
-
-
 }
