@@ -5,7 +5,7 @@ public class Empleado {
     protected String nombre;
     protected double salario;
 
-    public Empleado() {
+    public Empleado() {//Constructor vacio
 
     }
 }
