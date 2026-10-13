@@ -5,8 +5,9 @@ public class Vehiculo {
     protected String tipo;
     protected String marca;
 
-    public Vehiculo(){//Constructor vacio
-
+    protected Vehiculo(String tipo, String marca){//Constructor con parametros
+        this.tipo = tipo;
+        this.marca = marca;
     }
 
 }
