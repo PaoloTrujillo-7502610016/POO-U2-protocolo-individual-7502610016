@@ -16,14 +16,12 @@ public class PruebaTaller6 {
         gerente.mostrarInfo();
 
         Moto moto = new Moto();
-        moto.tipo = "Moto"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
-        moto.marca = "Yamaha"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
-        moto.cilindrada = 150; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+//        moto.tipo = "Moto"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+//        moto.marca = "Yamaha"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+//        moto.cilindrada = 150; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
 
-
-
-
-
+        Banco banco = new Banco(123456);//Instancia de la clase Banco
+        System.out.println("Saldo: $"+banco.saldo);//Accede al atributo protected 'saldo' de la clase Banco.
 
     }
 }
