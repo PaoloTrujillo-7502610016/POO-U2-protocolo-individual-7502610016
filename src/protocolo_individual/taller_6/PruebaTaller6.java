@@ -1,5 +1,8 @@
 package protocolo_individual.taller_6;
 
+import protocolo_individual.taller_6.vehiculo.Moto;
+import protocolo_individual.taller_6.vehiculo.Vehiculo;
+
 public class PruebaTaller6 {
 
     public static void main(String[] args) {
@@ -11,6 +14,16 @@ public class PruebaTaller6 {
         gerente.salario = 5000000;
         gerente.departamento = "Administrativo";
         gerente.mostrarInfo();
+
+        Moto moto = new Moto();
+        moto.tipo = "Moto"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+        moto.marca = "Yamaha"; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+        moto.cilindrada = 150; //No puede acceder a atributo protegido, clase Prueba no relacionada en paquete vehiculo
+
+
+
+
+
 
     }
 }

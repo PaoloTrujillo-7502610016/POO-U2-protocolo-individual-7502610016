@@ -1,4 +1,4 @@
-package protocolo_individual.taller_6;
+package protocolo_individual.taller_6.vehiculo;
 
 public class Vehiculo {
 
