@@ -12,7 +12,7 @@ public class Gerente extends Empleado{//Clase hija de la clase Empleado
     @Override //Se esta sobreescribiendo un metodo existente
     public void mostrarInformacion(){
         super.mostrarInformacion(); //Muestra los datos heredados del metodo de la clase padre
-        System.out.println("Departamento: "+nombre); //Añade mas funcionalidad al metodo
+        System.out.println("Departamento: "+departamento); //Añade mas funcionalidad al metodo
     }
 
 }
