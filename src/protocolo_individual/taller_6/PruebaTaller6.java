@@ -19,7 +19,7 @@ public class PruebaTaller6 {
 
         Banco banco = new Banco(123456);//Instancia de la clase Banco
         System.out.println("Saldo: $"+banco.saldo);//Accede al atributo protected 'saldo' -Modo no recomendado-
-        System.out.println("Saldo: $"+banco.getSaldo()); //Accede al atributo desde el metodo getter -Modo Correcto-
+        System.out.println("Saldo: $"+banco.getSaldo()); //Accede al atributo desde el metodo getter -Modo Correcto con acceso private + encapsulamiento-
 
     }
 }
