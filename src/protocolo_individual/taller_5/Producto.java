@@ -1,6 +1,6 @@
 package protocolo_individual.taller_5;
 
-class Producto { //Clase del Producto con nivel de acceso de paquete
+class Producto { //Clase del Producto con nivel de acceso de paquete (default)
     String nombre; //Por defecto, tiene acceso default
     double precio; //Por defecto, tiene acceso default
     int stock; //Por defecto, tiene acceso default

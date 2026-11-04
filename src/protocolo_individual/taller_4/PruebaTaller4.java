@@ -24,7 +24,7 @@ public static void main(String[] args) {
                 System.out.println("Edad: "+estudiante.getEdad());
                 //System.out.println("Nombre del Estudiante: "+estudiante.edad);/*Codigo con error*/
                 System.out.println("Nota promedio: "+estudiante.getNotaPromedio());
-                estudiante.setNotaPromedio(4.8);/*Modifica el valor del atributo notaPromedio*/
+                estudiante.setNotaPromedio(5.2);/*Modifica el valor del atributo notaPromedio*/
                 estudiante.mostrarNuevaNota();
                 break;
 
@@ -34,7 +34,7 @@ public static void main(String[] args) {
                 System.out.println("Vehiculo: "+coche.getMarca());
                 System.out.println("Modelo: "+coche.getModelo());
                 System.out.println("Velocidad Máxima: "+coche.getVelocidadMaxima()+" km/h");
-                coche.setVelocidadMaxima(coche.acelerar(-30));/*Metodo que modifica el valor del atributo velocidadMaxima*/
+                coche.setVelocidadMaxima(coche.acelerar(20));/*Metodo que modifica el valor del atributo velocidadMaxima*/
                 break;
 
             case 3:

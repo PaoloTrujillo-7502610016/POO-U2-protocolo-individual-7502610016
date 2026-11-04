@@ -13,9 +13,10 @@ public class PruebaTaller5 {
         producto.mostrarInfo();
 
         //Paquete vehiculos
-        Vehiculo vehiculo = new Vehiculo("Carro");/*El constructor de Vehiculo tiene acceso de paquete*/
+        //Vehiculo vehiculo = new Vehiculo("Carro");/*El constructor de Vehiculo tiene acceso de paquete*/
+        //System.out.println("Tipo de vehiculo: "+vehiculo.tipo);
         Moto moto = new Moto();
-        System.out.println("Se ha creado una moto correctamente\n");
+        System.out.println("\nSe ha creado una moto correctamente\n");
 
 
         //Clase Persona
