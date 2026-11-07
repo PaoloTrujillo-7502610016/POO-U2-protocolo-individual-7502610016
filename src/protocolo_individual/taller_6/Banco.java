@@ -2,8 +2,8 @@ package protocolo_individual.taller_6;
 
 public class Banco {
 
-    protected double saldo; /*Dato sensible, no deberia ser protected*/
-    //private double saldo; /*Atributo con acceso private + encapsulamiento
+    //protected double saldo; /*Dato sensible, no deberia ser protected*/
+    private double saldo; /*Atributo con acceso private + encapsulamiento*/
 
     public Banco(double saldo) {//Constructor
         this.saldo = saldo;
